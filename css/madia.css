@@ -1,0 +1,30 @@
+@media (max-width: 767px) {
+    .container .nav-par .links {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+    .container .content .box {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        padding: 0;
+    }
+    .container .contact .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .container .contact .head .title {
+        max-width: 100%;
+        text-align: center;
+    }
+    .container .contact .head .image {
+        display: none;
+    }
+    .container .contact .head {
+        display: inherit;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
